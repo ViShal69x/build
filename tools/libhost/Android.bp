@@ -8,6 +8,7 @@ cc_library_host_static {
     srcs: ["CopyFile.c"],
 
     cflags: [
+        "-Werror",
         "-Wall",
     ],
 

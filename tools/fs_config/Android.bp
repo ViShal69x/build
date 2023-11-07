@@ -37,6 +37,7 @@ cc_binary_host {
         "libcutils",
         "libselinux",
     ],
+    cflags: ["-Werror"],
 }
 
 python_binary_host {
